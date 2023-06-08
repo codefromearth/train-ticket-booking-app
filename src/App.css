@@ -1,0 +1,56 @@
+/* styles.css */
+body{
+    margin-bottom: 50px;
+    background-color: bisque;
+}
+.seatbuttons
+{      
+        margin: 10px 60px;
+        text-align: center;
+        
+}
+.app h1{
+    text-align: center;
+    width: 80%;
+     margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style:normal;
+    font-weight: bold;
+    color: rgb(87, 5, 5);
+}  
+.seatbuttons button{
+    margin-right: 5px;
+    background-color: crimson;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+   
+}
+.coach {
+    width: 60%;
+        margin: auto;
+        display: grid;
+        gap: 5px 5px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.seat {
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 8px;
+}
+
+.available {
+    background-color: #a3ff8f;
+    /* Light green for available seats */
+}
+
+.booked {
+    background-color: #ff8f8f;
+    /* Light red for booked seats */
+}
